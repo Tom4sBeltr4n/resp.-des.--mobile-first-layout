@@ -1,0 +1,13 @@
+Título: Maquetación del header
+
+Vamos a añadir etiquetas a la cabecera para agregarle texto e imágenes
+Recordemos que por SEO, sólo puede haber un h1 en una misma página. 
+Los "calls-to-action" van en el encabezado.
+
+Resultado (todo lo siguiente está anidado en header):
+<img src ="assets/icons/" alt="">
+        <div>
+            <h1>La próxima revolución en el intercambio de criptomonedas</h1>
+            <p>Batatabit te ayuda a navegar entre los diferentes precios y tendencias.</p>
+            <a href="">Conoce nuestros planes <span>i</span></a>
+        </div>

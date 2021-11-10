@@ -1,0 +1,3 @@
+Título: Uso de linear gradient.
+
+Añadiremos el difuminado del fondo de la cabecera, así como fuentes al h1 y p.

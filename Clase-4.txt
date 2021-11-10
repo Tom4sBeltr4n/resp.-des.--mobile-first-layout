@@ -1,0 +1,6 @@
+Título: arquitectura inicial
+
+Vamos a analizar el proyecto y añadir etiquetas
+header+(main>(section*4))+footer
+
+Se crea index.html con su estructura

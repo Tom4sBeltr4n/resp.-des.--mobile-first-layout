@@ -1,0 +1,12 @@
+Título: Assets de nuestro proyecto.
+
+Descargar las propiedades de nuestro proyecto (imágenes, fuentes, etc.). 
+Lista: Logotipos e isotipos. 
+Al dar click en un elemento, Figma nos expone información del tipo de archivo. Hay que dar click en exportar, formato y exportar de nuevo; se iniciará inmediatamente la descarga. También está permitido agrupar imágenes y texto para descargar con el mismo procedimiento anterior.
+
+Tarea: descargar íconos e imágenes.
+
+No dejar espacios en nombres de archivo
+
+Nuevas palabras: 
+Isotipo: Dibujo o imagen de una entidad; distinto a logotipo porque logotipo es el nombre con una fuente bella

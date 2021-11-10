@@ -1,0 +1,10 @@
+Título: Analizando el diseño
+
+Proyecto: construir una página de una empresa real (Batabit).
+Análisis con Figma. Figma es usada por diseñadores para explicar sus demandas al trabajador de la web. Quizás necesite cuenta a futuro. Figma provee bases de CSS, pero es importante usar criterio en vez de copiar y pegar todo. Hay que mantener en cuenta los colores que nos entrega el cliente y sus valores
+
+Hay que dividir el proyecto demandado: ¿qué secciones tiene?
+En el caso: encabezado, botón, sección 1, sección 2, sección 3, sección 4 y footer. 
+
+Nuevas palabras: 
+wireframe: Guía visual para que el desarrollador pueda apoyarse en la ejecución de su trabajo
