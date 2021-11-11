@@ -1,3 +1,0 @@
-Título: Implementando BEM
-
-Añadiremos clases a nuestras etiquetas de HTML a través de Block-element-modifier, una metodología de nomenclatura y organización de CSS. Además añadimos estilos al header, aunque falta el color del fondo y los estilos del h1 y del botón

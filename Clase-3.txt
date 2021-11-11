@@ -1,6 +1,0 @@
-Título: El valor de Mobile First.
-
-Pros: 
-- Fácil de escalar (Devs)
-- Apoya a los usuarios de dispositivos de gama baja.
-- Mejor posicionamiento en buscador (o SEO)

@@ -1,7 +1,0 @@
-Título: Fuentes de nuestro proyecto
-
-No es bueno que metamos más de dos fuentes. 
-
-El diseñador puede decirnos qué fuente se usa, o, si no, Figma nos lo dirá. En nuestro caso, DM sans e Inter son las que nos pide el diseño. Hay que traer la fuente en diferentes pesos o fuerzas (diferente a tamaños). Bold es de alrededor de 700, y los otros pesos de DM son 400 y 500. Por otra parte, en Inter, sólo se usan 300 y 500, por lo que se llevan esas. 
-
-Las integramos con <link> preconnect y stylesheet. Preconnect hace que se genere una conexión al dominio necesario al cargar el sitio, acelerando la carga. Luego en CSS usaremos font-family para insertarlas.

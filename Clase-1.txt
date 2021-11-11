@@ -1,3 +1,0 @@
-Título: Por qué aprender Responsive Design con Mobile First
-
-Es importante optimizar el diseño en teléfonos y tablets.

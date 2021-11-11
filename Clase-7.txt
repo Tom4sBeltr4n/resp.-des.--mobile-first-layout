@@ -1,5 +1,0 @@
-Título: Estilos base
-
-Comencemos a trabajar los estilos del proyecto, pues ya tenemos las fuentes e imágenes. Aprovechemos que Figma, en el menú izquierdo, ofrece la sección de Branding bajo Pages, donde podemos ver los colores. En Mobile Prototype se ven los colores también, pero no en lista, sino por separado y dando click a lo que queremos copiar o conocer. Tomamos los colores de Figma y empleamos sus códigos para nuestro proyecto, poniéndoles como valor de variable. 
-
-Ubicamos los valores de *, html y variables
