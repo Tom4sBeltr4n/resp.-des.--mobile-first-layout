@@ -1,0 +1,1 @@
+This is a project for a responsive design course from Platzi (Colombian-Guatemalan education company) which is based on a real company's page. I imitate what the teacher does on the class while also trying to understand what we do (CSS functions, etc.) 
