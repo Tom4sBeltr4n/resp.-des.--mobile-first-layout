@@ -94,7 +94,7 @@ header img
     padding: 15px;
     width: 229px;
     height: 48px;
-    background-color: var(--off-white);/*syntax: var(name), do not add any more brackets*/
+    background-color: var(--off-white);/*sintaxis: var(nombre),  no añadir más paréntesis*/
     /*Sombra*/
     box-shadow: 0px 4px 8px rgba(89,73,30,0.16);
     border:none;
@@ -132,10 +132,41 @@ main
     text-align:center;
 }
 
+.main-exchange-container .backgroundImg /*Las clases son sensibles a las mayúsculas*/
+{
+    width:200px;
+    height: 200px;
+    margin: 0 auto 50px;
+    background-image: url('./assets/icons/bitcoin.svg');/*Revisa bien tus URLs*/
+    /*Buenas prácticas con una imagen de fondo :*/
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
 .main-exchange-container--title
 {
     width:90%;
     min-width: 288px;
     max-width: 900px;
-    margin: 0 auto;/*center*/
+    margin: 0 auto;/*centrada*/
+}
+
+.main-exchange-container h2
+{
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+
+.main-exchange-container p
+{
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.6rem;;
+    color: var(--#757575);
+    /*Algunos colores pueden no ser añadidos como variables si el diseñador no quiere usarlos de nuevo*/
 }
