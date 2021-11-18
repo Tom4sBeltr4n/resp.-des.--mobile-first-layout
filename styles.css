@@ -167,11 +167,54 @@ main
   font-size: 1.4rem;
   font-weight: normal;
   line-height: 1.6rem;;
-  color: var(--#757575);
+  color: #757575;
   /*Algunos colores pueden no ser añadidos como variables si el diseñador no quiere usarlos de nuevo*/
 }
 
-.main-tables-container
+.main-currency-table
 {
-  width:10px;
+  width: 70%;
+  min-width: 235px;
+  max-width: 500px;
+  height: 360px;
+  /*Figma can help determine height*/
+  margin: 0 auto;
+  /* Margin 0 auto sólo funciona si todas estas condiciones se cumplen: el elemento tiene display:block, position no es flotante, de ser absoluta o fija, no está alterada en eje x, y su ancho no es automático. Si no funciona aún así, hay que revisar si hay patrones de herencia funcionando */
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+.main-currency-table .currency-table--title
+{
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  line-height: 2.3rem;
+  color: var(--bitcoin-orange);
+}
+
+.currency-table--container
+{
+  width: 90%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.currency-table--container table
+{
+  width: 100%;
+  height: 100%;
+}
+
+.currency-table--container td
+{
+  width: 50%;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height:1.9rem;
+  color:var(--grey);
+  background-color: var(--just-white);
 }
