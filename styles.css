@@ -302,3 +302,112 @@ main
 {
   background-color:var(--soft-blue);
 }
+
+.main-product-detail
+{
+  position:relative;
+  width:100%;
+  min-width:320px;
+  height:auto;
+  padding: 20px 10px;
+  background-color: var(--warm-black);
+}
+
+.main-product-detail .product-detail--batata-logo
+{
+  position: absolute;
+  width: 40px;
+  height: 25px;
+  top: -10px;
+  display: block;
+  left: calc(50% - 20px);/*don't forget the whitespace between the sign and the values to avoid problems with the calc function*/
+  /* margin: 0 auto; no sirve en este caso puesto que span es hijo de section, section es la parte negra del documento, por lo que para elevar a span a la línea entre esta sección y la anterior necesitaríamos position+top, cosa que evitaría el uso de margin 0 auto. Cambiar position+top por "margin 0 auto 10;" no serviría porque sólo crearía márgenes pero seguiría debajo de section, y valores negativos de margin-top serían desastrosos.*/
+  background-image: url(./assets/imgs/batata.svg);
+}
+
+.product-detail--header
+{
+  width: 90%;
+  min-width: 288px;
+  height:auto;
+  margin: 50px auto 0;
+  text-align: center;
+}
+
+.product-detail--header h2
+{
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--white);
+}
+
+.product-detail--header p
+{
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
+}
+
+.product-detail--card
+{
+  width: 90%; /*test around using webtools when in doubt*/
+  min-width: 288px;
+  max-width: 400px;
+  height: 150px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: var(--black);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.product-detail--card span
+{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.product-detail--card .clock
+{
+  background-image: url('./assets/imgs/clock-1.png');
+}
+
+.product-detail--card .eye
+{
+  background-image: url('./assets/imgs/eye.png');
+}
+
+.product-detail--card .dollar
+{
+  background-image: url('./assets/imgs/dollar-sign.png');
+}
+
+.product-detail--card .checkmark
+{
+  background-image: url('./assets/imgs/check-circle-.png');
+}
+
+.product--card-title
+{
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--white);
+}
+.product--card-body
+{
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
+}
