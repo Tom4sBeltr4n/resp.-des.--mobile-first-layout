@@ -111,7 +111,7 @@ header img
   width: 13px;
   height: 14px;
   margin-left: 18px;
-  background-image: url('assets/icons/down-arrow.svg');
+  background-image: url('assets/imgs/down-arrow.svg');
   background-repeat: no-repeat;
   background-position-y: center;
 }
@@ -137,7 +137,7 @@ main
   width:200px;
   height: 200px;
   margin: 0 auto 50px;
-  background-image: url('./assets/icons/bitcoin.svg');/*Revisa bien tus URLs*/
+  background-image: url('./assets/imgs/bitcoin.svg');/*Revisa bien tus URLs*/
   /*Buenas prácticas con una imagen de fondo :*/
   background-size: cover;
   background-position:center;
@@ -264,12 +264,12 @@ main
 
 .table--container .currency-table__decrease
 {
-  background-image: url('./assets/icons/trending-down-1.png');
+  background-image: url('./assets/imgs/trending-down-1.png');
 }
 
 .table--container .currency-table__increase
 {
-  background-image: url('./assets/icons/trending-up-1.png'); 
+  background-image: url('./assets/imgs/trending-up-1.png'); 
 }
 
 .currency-table--date, .commissions-table--date
