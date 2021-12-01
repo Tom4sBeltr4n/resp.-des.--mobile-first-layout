@@ -436,14 +436,17 @@ main
 
 .main-plans-container
 {
+  /* posición */
   width: 100%;
   min-width: 320px;
   padding-bottom: 70px;
+  /* tipografía */
   text-align: center;
 }
 
 .plans--title
 {
+  /* caja */
   width: 90%;
   min-width: 288px;
   height: auto;
@@ -452,7 +455,9 @@ main
 
 .plans--title h2
 {
+  /* caja */
   padding-top: 50px;
+  /* tipografía */
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 2.6rem;
@@ -461,7 +466,9 @@ main
 
 .plans--title p
 {
+  /* caja */
   padding-top: 30px;
+  /* tipografía */
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
@@ -470,19 +477,84 @@ main
 
 .plans-container--slider
 {
+  /* caja */
   width:100%;
 }
 
 .plans-container--card
 {
+  /* posición */
   position: relative;
+  /* caja */
   width: 70%;
   min-width: 230px;
   max-width: 300px;
   height: 250px;
   margin: 50px auto 0;
   padding: 0 15px;
+  /* visual */
   background-color: #fff;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.recommended-notice
+{
+  /* posición */
+  position: absolute;
+  left: calc(50% - 60px); /* Ten en cuenta el espacio (" ", [whitespace]) interior en las funciones calc */
+  top: -15px;
+  /* caja */
+  width: 120px;
+  height: 31px;
+  padding-top: 5px;
+  /* tipografía */
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  /* visual */
+  background-color: var(--bitcoin-orange);
+  border-radius: 8px;
+}
+
+.plan-card--title
+{
+  /*caja*/
+  padding-top: 30px;
+  /* tipografía */
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: black;
+}
+
+.plan-card--price
+{
+  /* caja */
+  padding: 5px 0;
+  /* tipografía */
+  font-size: 5.2rem;
+  font-weight: bold;
+  line-height: 5.3rem;
+  color: black
+}
+
+.plan-card--price>span
+{
+  /* posición */
+  position: relative;
+  top: -30px;
+  left: 10px;
+  /* tipografía */
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: black;
+}
+
+.plan-card--saving
+{
+  /* tipografía */
+  font-size: 1.4rem;
+  color: #757575;
+  font-weight: 500;
 }
