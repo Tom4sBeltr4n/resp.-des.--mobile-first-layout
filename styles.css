@@ -557,4 +557,38 @@ main
   font-size: 1.4rem;
   color: #757575;
   font-weight: 500;
+  line-height: 1.8rem;
+}
+
+.plan-card--call-to-action
+{
+  /* caja */
+  width: 150px; 
+  height: 48px;
+  margin-top: 20px;
+  border-width: 2px;
+  /* tipografía */
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--black);
+  font-family: 'DM Sans', sans-serif;
+  /* visual */
+  background-color: var(--off-white);
+  border-style: solid;
+  border-color: var(--bitcoin-orange);
+  border-radius: 4px;
+}
+
+.plan-card--call-to-action span
+{
+  /* posición */
+  display: inline-block;
+  vertical-align: text-bottom;
+  /* caja */
+  width: 20px;
+  height: 20px;
+  /* visual */
+  background-image: url('./assets/imgs/arrow-right\ 1.svg');
+  background-repeat: no-repeat;
 }
