@@ -190,7 +190,6 @@ main
   font-size:1.8rem;
   font-weight: 700;
   font-family: "DM Sans", sans-serif;
-  text-align: left;
 }
 
 .main-currency-table .currency-table--title
@@ -485,7 +484,7 @@ main
   /* otros */
   overflow-x: scroll;
   overscroll-behavior-x: contain;
-  scroll-snap-type: x proximity; /* hace que al acercarse el deslizador del contenedor a un punto determinado este sea discreto matemáticamente, es decir, se aproxime rápido al punto y prohiba ciertos valores cercanos pero no iguales. Por ejemplo,s ería como pasar de 2 a 2.5 a 3, en vez de pasar continuamente por 2.1, 2.2, 2.3, 2.4 y así.  */
+  scroll-snap-type: x proximity; /* hace que al acercarse el deslizador del contenedor a un punto determinado este sea discreto matemáticamente, es decir, se aproxime rápido al punto y prohiba ciertos valores cercanos pero no iguales. Por ejemplo, sería como pasar de 2 a 2.5 a 3, en vez de pasar continuamente por 2.1, 2.2, 2.3, 2.4 y así.  */
 }
 
 .plans-container--card
