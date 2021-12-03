@@ -601,3 +601,43 @@ main
   background-image: url('./assets/imgs/arrow-right\ 1.svg');
   background-repeat: no-repeat;
 }
+
+footer
+{
+  /* Posición y disposición */
+  display: flex;
+  /* caja */
+  width: 100%;
+  height: 150px;
+  /* visual */
+  background-color: var(--bitcoin-orange);
+}
+
+footer section
+{
+  /* Posición y disposición */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* caja */
+  width: 50%;
+}
+
+footer .footer--media-container ul
+{
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  list-style: none; /*aplicar directamente sobre ul o no funciona*/
+}
+
+.footer--media-container li
+{
+  margin: 10px 0;
+}
+
+.footer--media-container a
+{
+  text-decoration: none;
+  color: #FFFFFF;
+}
