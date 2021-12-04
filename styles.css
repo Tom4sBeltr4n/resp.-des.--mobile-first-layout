@@ -19,6 +19,7 @@ Es bueno tener una convención de orden en nuestras reglas y propiedades
   --grey:#BABABA;
   --off-white: #FAF8F7;
   --white: #ffffff;
+  --commission-table-margin: 33px;
 }
 
 html
@@ -171,14 +172,28 @@ main
   /*Algunos colores pueden no ser añadidos como variables si el diseñador no quiere usarlos de nuevo*/
 }
 
+.main-tables-container
+{
+  display: flex;
+  overflow-x: scroll;
+  overscroll-behavior: contain;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.main-currency-table
+{
+  margin-right: var(--commission-table-margin);
+}
+
 .main-currency-table, .main-commissions-table
 {
   width: 70%;
   min-width: 235px;
   max-width: 500px;
-  height: 360px;
   /*Figma can help determine height*/
-  margin: 0 auto;
+  height: 360px;
+  margin: 0 10px;
   /* Margin 0 auto sólo funciona si todas estas condiciones se cumplen: el elemento tiene display:block, position no es flotante, de ser absoluta o fija, no está alterada en eje x, y su ancho no es automático. Si no funciona aún así, hay que revisar si hay patrones de herencia funcionando */
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -287,6 +302,11 @@ main
   line-height: 1.5px;
 }
 
+.main-commissions-table
+{
+  margin-left: var(--commission-table-margin);
+}
+
 .currency-table--date
 {
   background-color:var(--soft-orange);
@@ -320,7 +340,7 @@ main
   top: -10px;
   display: block;
   left: calc(50% - 20px);/*no olvides el espacio (" ") entre el signo y los valores para evitar problemas con la función calc*/
-  /* margin: 0 auto; no sirve en este caso puesto que span es hijo de section, section es la parte negra del documento, por lo que para elevar a span a la línea entre esta sección y la anterior necesitaríamos position+top, cosa que evitaría el uso de margin 0 auto. Cambiar position+top por "margin 0 auto 10;" no serviría porque sólo crearía márgenes pero seguiría debajo de section, y valores negativos de margin-top serían desastrosos.*/
+  /* margin: 0 auto; no sirve en este caso puesto que span es hijo de section, section es la parte negra del documento, por lo que para elevar a span a la línea entre esta sección y la anterior necesitaríamos position+top, cosa que evitaría el uso de margin 0 auto. Cambiar position+top por "margin 0 auto 10;" no serviría porque sólo crearía márgenes pero seguiría debajo de section (ausencia de position absolute), y valores negativos de margin-top serían desastrosos.*/
   background-image: url(./assets/imgs/batata.svg);
 }
 

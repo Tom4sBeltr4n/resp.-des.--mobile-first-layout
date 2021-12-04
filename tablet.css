@@ -1,8 +1,5 @@
 .main-tables-container
 {
-  display: flex;
-  overflow-x: scroll;
-  overscroll-behavior: contain;
   width: 1000px;
   margin: 0 auto;
 }
